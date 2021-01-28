@@ -4,11 +4,9 @@
 
 
 print('''
-Fahernhit to Celsius conversion
+Fahrenheit to Celsius conversion
 Degrees in Fahrenheit?
 ''')
 F = float(input())
 c = (F-32)*5/9
-print(round(c,1), "deprees in Celsius")
-
-
+print(round(c, 1), "degrees in Celsius")
